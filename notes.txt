@@ -1,0 +1,16 @@
+# activate venv
+
+windows:
+venv\Scripts\activate
+
+
+mac, linux:
+source venv/bin/activate
+
+
+
+# run the flask project
+flask --app server.py run --debug
+
+python string formatting
+F formatting (research)
